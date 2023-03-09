@@ -72,11 +72,11 @@ jobs:
                   path: |
                       ./dist/*
 
-            - name: Publishing to GitHub Releases
-              uses: svenstaro/upload-release-action@v2
-              if: github.event_name == 'release'
+            - name: Release
+              uses: softprops/action-gh-release@v1
               with:
-                  repo_token: ${{ github.token }}
-                  file: dist/*
-                  tag: ${{ github.ref }}
-                  file_glob: true
+              draft: false
+              files: |
+                 dist/*
+              env:
+               GITHUB_TOKEN: ${{ secrets.GT_Token }}
