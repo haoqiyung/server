@@ -5,8 +5,7 @@
 # UnblockNeteaseMusic
 
 解锁网易云音乐客户端变灰歌曲
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FUnblockNeteaseMusic%2Fserver.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FUnblockNeteaseMusic%2Fserver?ref=badge_shield)
+ld)
 
 ## 特性
 
