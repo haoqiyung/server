@@ -4,6 +4,8 @@ on:
     push:
         branches:
             - 'enhanced'
+        tags:
+            - '*'
         paths-ignore:
             - '**.md'
             - 'precompiled/*.js'
